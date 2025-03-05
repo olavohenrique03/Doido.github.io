@@ -1,0 +1,15 @@
+:root {
+    --cor-branco: #fff;
+    --cor-preto: #000;
+
+    --f1: clamp(1rem, 1vw, 1.2rem);
+    --f2: clamp(2rem, 2vw, 3.2rem);
+}
+
+p {
+    color: var(--cor-branco);
+
+    font-size: var(--f1);
+}
+
+
