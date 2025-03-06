@@ -4,3 +4,5 @@ Descrição sobre o projeto DOIDO
 2 - Sobre ele
 3 - Projetos
 4 - Contatos
+
+Cores - Verde; Azul; Preto

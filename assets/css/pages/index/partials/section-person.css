@@ -1,0 +1,6 @@
+#person {
+    height: 100vh; /* vh viewport (100% da pagina)*/
+
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+}

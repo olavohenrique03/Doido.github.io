@@ -6,10 +6,10 @@
     --f2: clamp(2rem, 2vw, 3.2rem);
 }
 
-p {
+/* p {
     color: var(--cor-branco);
 
     font-size: var(--f1);
 }
-
+ */
 
