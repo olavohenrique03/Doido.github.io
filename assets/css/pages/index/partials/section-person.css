@@ -1,6 +1,40 @@
 #person {
-    height: 100vh; /* vh viewport (100% da pagina)*/
+    height: 100vh; /* vh viewport (100% da pagina) */
+    width: 100%;
+    
+    display: flex; /* deixa o conteudo dentro flexisivel */
+    align-items: center; /* alinha os itens no eixo vertical | */
+
 
     background-color: var(--cor-preto);
     color: var(--cor-branco);
+}
+
+.person-content {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center; /* alinha eixo horizontal --*/
+    align-items: start;
+
+    flex-direction: column; /* deixa os intens um em baixo do outro formato de coluna*/
+
+}
+
+.person-name {
+    font-size: 4.5rem; /* fator de mult, ajuda na hora da responsividade*/
+    line-height: 6.5rem; /* espaçamento de uma linha para a outra*/
+
+    margin-left: 4rem;
+}
+
+.person-name h1:nth-child(2) {
+    color: green;
+}
+
+.person-catchphrase {
+    
+    font-size: 1.3rem;
+    margin: 6rem 0 0 4rem;
 }
